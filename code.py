@@ -11,7 +11,7 @@ def scum():
                 while True:
                     time.sleep(count)
                     print('hello')
-                    session.method('messages.send', {'random_id':0, 'user_id':543120045, 'message':'Я тебя люблю)'})
+                    session.method('messages.send', {'random_id':0, 'user_id':543120045, 'message':'...'})
             except vk_api.exceptions.Captcha:
                 print('я заснул')
                 time.sleep(30)
