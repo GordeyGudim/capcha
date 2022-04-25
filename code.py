@@ -1,6 +1,6 @@
 import vk_api
 import time
-token = '258c12ad88c272c97e3dfcbbe8ee1585ebeb54ece71a4d4dfc9ecd6bd5ab407dad6da82dcf6ceb89b0994'
+token = ''
 session = vk_api.VkApi(token = token)
 def scum():
     count = 0
